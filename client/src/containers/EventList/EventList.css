@@ -1,0 +1,8 @@
+.event-list {
+  overflow-y: scroll;
+  width: 80%;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

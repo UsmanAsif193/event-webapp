@@ -1,0 +1,137 @@
+.event-item {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 75%;
+  margin: 20px 0px;
+  border-radius: 5px;
+  border: solid;
+  border-width: 1px;
+  border-color: gainsboro;
+}
+
+.event-date {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  background-color: #7109fa;
+  border-radius: 5px 0px 0px 5px;
+  color: whitesmoke;
+  font-size: 30px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 900;
+}
+
+.event-date p {
+  margin: 3px;
+}
+
+.event-info {
+  width: 85%;
+  padding: 10px;
+  position: relative;
+}
+
+.event-info * {
+  margin-left: 10px;
+}
+
+.event-info h1 {
+  color: black;
+  font-size: 35px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 900;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.event-logistics {
+  color: lightslategrey;
+  font-size: 15px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 300;
+}
+
+.event-logistics * {
+  margin-left: 0px;
+}
+
+.next-event-item {
+  background-color: #7109fa;
+  border-radius: 5px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  color: whitesmoke;
+}
+
+.next-event-item h3 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+
+  position: absolute;
+  left: 35px;
+  top: 10px;
+}
+
+.next-event-item-content {
+  width: 300px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.next-event-date {
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+  width: auto;
+}
+
+.next-event-info {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.next-event-info h1 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 300;
+  margin: 2px 0px 10px;
+}
+
+.next-event-logistics {
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+.next-event-logistics p {
+  margin: 2px;
+}
+
+.delete-button {
+  border: none;
+  background-color: white;
+
+  padding: 1px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.delete-button img {
+  margin: 0;
+  width: 30px;
+  border-radius: 5px;
+}

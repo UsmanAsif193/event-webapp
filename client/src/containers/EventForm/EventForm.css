@@ -1,0 +1,52 @@
+.event-form {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  padding: 10px;
+  margin: 0px 50px;
+  width: 300px;
+  position: relative;
+  font-family: "Nunito", sans-serif;
+}
+
+.create-event {
+  text-align: center;
+}
+
+.event-form h1 {
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.event-form p {
+  margin-bottom: 1px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+input {
+  margin: 5px 0px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  width: 90%;
+  height: 30px;
+}
+
+.submit-button {
+  padding: 20px;
+  background-color: #7109fa;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.submit-button span {
+  font-family: "Fredoka One", cursive;
+  font-weight: 600;
+  font-size: 30px;
+}
